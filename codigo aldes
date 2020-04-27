@@ -1,0 +1,497 @@
+<! DOCTYPE html >
+< html  lang = " en " >
+    < cabeza >
+        < meta  charset = " utf-8 " />
+        < meta  name = " viewport " content = " width = device-width, initial-scale = 1, shrink-to-fit = no " />
+        < meta  name = " description " content = "" />
+        < meta  name = " author " content = "" />
+        < título > Agencia - Iniciar tema de Bootstrap </ título >
+        < link  rel = " icon " type = " image / x-icon " href = " assets / img / favicon.ico " />
+        <! - Iconos de Font Awesome (versión gratuita) ->
+        < script  src = " https://use.fontawesome.com/releases/v5.12.1/js/all.js " crossorigin = " anónimo " > </ script >
+        <! - Fuentes de Google ->
+        < link  href = " https://fonts.googleapis.com/css?family=Montserrat:400,700 " rel = " stylesheet " type = " text / css " />
+        < link  href = " https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic " rel = " stylesheet " type = " text / css " />
+        < link  href = " https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700 " rel = " stylesheet " type = " text / css " />
+        <! - CSS del tema principal (incluye Bootstrap) ->
+        < link  href = " css / styles.css " rel = " stylesheet " />
+    </ cabeza >
+    < body  id = " page-top " >
+        <! - Navegación ->
+        < nav  class = " navbar navbar-expand-lg navbar-dark fixed-top " id = " mainNav " >
+            < div  class = " container " >
+                < Una  clase =" barra de navegación de la marca JS-scroll-trigger " href =" # page-top " > < img  src =" activos / img / navbar-logo.svg "/> </ a > < botón de  clase =" barra de navegación -toggler navbar-toggler-right " type =" button " data-toggle =" collapse " data-target =" #navbarResponsive " aria-controls =" navbarResponsive "aria-expandido = " falso" aria-label =" Toggle navigation " > Menú < i  class =" fas fa-bars ml-1 " > </ i > </ button >
+                < div  class = " collapse navbar-collapse " id = " navbarResponsive " >
+                    < ul  class = " navbar-nav text-uppercase ml-auto " >
+                        < Li  clase = " nav-elemento " > < una  clase =" nav-enlace-js-desplazamiento del gatillo " href =" #services " > Servicios </ a > </ li >
+                        < Li  clase = " nav-elemento " > < una  clase =" nav-enlace-js-desplazamiento del gatillo " href =" #portfolio " > Cartera </ a > </ li >
+                        < Li  clase = " nav-elemento " > < una  clase =" nav-enlace-js-desplazamiento del gatillo " href =" #about " > Acerca de </ a > </ li >
+                        < Li  clase = " nav-elemento " > < una  clase =" nav-enlace-js-desplazamiento del gatillo " href =" #team " > Equipo </ a > </ li >
+                        < Li  clase = " nav-elemento " > < una  clase =" nav-enlace-js-desplazamiento del gatillo " href =" #contact " > Contacto </ a > </ li >
+                    </ ul >
+                </ div >
+            </ div >
+        </ nav >
+        <! - Masthead ->
+        < header  class = " masthead " >
+            < div  class = " container " >
+                < div  class = " masthead-subheading " > ¡ Aprendiendo Lengua de Señas </ div >
+                < div  class = " masthead-header text-uppercase " > ALdeS </ div >
+                < Una  clase = " btn btn-primaria BTN-xl-texto en mayúsculas js-scroll-trigger " href =" #services " > Dime más </ a >
+            </ div >
+        </ header >
+        <! - Servicios ->
+        < section  class = " page-section " id = " services " >
+            < div  class = " container " >
+                < div  class = " text-center " >
+                    < h2  class = " section-header text-uppercase " > Servicios </ h2 >
+                    < h3  class = " section-subheading text-muted " > Lorem ipsum dolor sit amet consectetur. </ h3 >
+                </ div >
+                < div  class = " row text-center " >
+                    < div  class = " col-md-4 " >
+                        < abarcan  clase = " fa-stack fa-4x " > < i  class = " fas fa-circle fa-stack-2x text-primary " > </ i > < i  class = " fas fa-shopping-cart fa-stack -1x fa-inverso " > </ i > </ span >
+                        < h4  class = " my-3 " > Comercio electrónico </ h4 >
+                        < p  class = " text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. </ p >
+                    </ div >
+                    < div  class = " col-md-4 " >
+                        < abarcan  clase = " fa-stack fa-4x " > < i  class = " fas fa-circle fa-stack-2x text-primary " > </ i > < i  class = " fas fa-laptop fa-stack-1x fa-inverso " > </ i > </ span >
+                        < h4  class = " my-3 " > Diseño receptivo </ h4 >
+                        < p  class = " text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. </ p >
+                    </ div >
+                    < div  class = " col-md-4 " >
+                        < abarcan  clase = " fa-stack fa-4x " > < i  class = " fas fa-circle fa-stack-2x text-primary " > </ i > < i  class = " fas fa-lock fa-stack-1x fa-inverso " > </ i > </ span >
+                        < h4  class = " my-3 " > Seguridad web </ h4 >
+                        < p  class = " text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. </ p >
+                    </ div >
+                </ div >
+            </ div >
+        </ sección >
+        <! - Cuadrícula de cartera ->
+        < section  class = " page-section bg-light " id = " portfolio " >
+            < div  class = " container " >
+                < div  class = " text-center " >
+                    < h2  class = " section-header text-uppercase " > Portafolio </ h2 >
+                    < h3  class = " section-subheading text-muted " > Lorem ipsum dolor sit amet consectetur. </ h3 >
+                </ div >
+                < div  class = " row " >
+                    < div  class = " col-lg-4 col-sm-6 mb-4 " >
+                        < div  class = " portfolio-item " >
+                            < a  class = " portfolio-link " data-toggle = " modal " href = " # portfolioModal1 "
+                                > < div  class = " portfolio-hover " >
+                                    < div  class = " portfolio-hover-content " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                                </ div >
+                                < img  class = " img-fluid " src = " assets / img / portfolio / 01-thumbnail.jpg " alt = ""
+                            /> </ a >
+                            < div  class = " portfolio-caption " >
+                                < div  class = " portfolio-caption-header " > Subprocesos </ div >
+                                < div  class = " portfolio-caption-subheading text-muted " > Ilustración </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                    < div  class = " col-lg-4 col-sm-6 mb-4 " >
+                        < div  class = " portfolio-item " >
+                            < a  class = " portfolio-link " data-toggle = " modal " href = " # portfolioModal2 "
+                                > < div  class = " portfolio-hover " >
+                                    < div  class = " portfolio-hover-content " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                                </ div >
+                                < img  class = " img-fluid " src = " assets / img / portfolio / 02-thumbnail.jpg " alt = ""
+                            /> </ a >
+                            < div  class = " portfolio-caption " >
+                                < div  class = " portfolio-caption-header " > Explore </ div >
+                                < div  class = " portfolio-caption-subheading text-muted " > Diseño gráfico </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                    < div  class = " col-lg-4 col-sm-6 mb-4 " >
+                        < div  class = " portfolio-item " >
+                            < a  class = " portfolio-link " data-toggle = " modal " href = " # portfolioModal3 "
+                                > < div  class = " portfolio-hover " >
+                                    < div  class = " portfolio-hover-content " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                                </ div >
+                                < img  class = " img-fluid " src = " assets / img / portfolio / 03-thumbnail.jpg " alt = ""
+                            /> </ a >
+                            < div  class = " portfolio-caption " >
+                                < div  class = " portfolio-caption-header " > Finalizar </ div >
+                                < div  class = " portfolio-caption-subheading text-muted " > Identidad </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                    < div  class = " col-lg-4 col-sm-6 mb-4 mb-lg-0 " >
+                        < div  class = " portfolio-item " >
+                            < a  class = " portfolio-link " data-toggle = " modal " href = " # portfolioModal4 "
+                                > < div  class = " portfolio-hover " >
+                                    < div  class = " portfolio-hover-content " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                                </ div >
+                                < img  class = " img-fluid " src = " assets / img / portfolio / 04-thumbnail.jpg " alt = ""
+                            /> </ a >
+                            < div  class = " portfolio-caption " >
+                                < div  class = " portfolio-caption-header " > Líneas </ div >
+                                < div  class = " portfolio-caption-subheading text-muted " > Marca </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                    < div  class = " col-lg-4 col-sm-6 mb-4 mb-sm-0 " >
+                        < div  class = " portfolio-item " >
+                            < a  class = " portfolio-link " data-toggle = " modal " href = " # portfolioModal5 "
+                                > < div  class = " portfolio-hover " >
+                                    < div  class = " portfolio-hover-content " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                                </ div >
+                                < img  class = " img-fluid " src = " assets / img / portfolio / 05-thumbnail.jpg " alt = ""
+                            /> </ a >
+                            < div  class = " portfolio-caption " >
+                                < div  class = " portfolio-caption-header " > Suroeste </ div >
+                                < div  class = " portfolio-caption-subheading text-muted " > Diseño de sitio web </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                    < div  class = " col-lg-4 col-sm-6 " >
+                        < div  class = " portfolio-item " >
+                            < a  class = " portfolio-link " data-toggle = " modal " href = " # portfolioModal6 "
+                                > < div  class = " portfolio-hover " >
+                                    < div  class = " portfolio-hover-content " > < i  class = " fas fa-plus fa-3x " > </ i > </ div >
+                                </ div >
+                                < img  class = " img-fluid " src = " assets / img / portfolio / 06-thumbnail.jpg " alt = ""
+                            /> </ a >
+                            < div  class = " portfolio-caption " >
+                                < div  class = " portfolio-caption-header " > Ventana </ div >
+                                < div  class = " portfolio-caption-subheading text-muted " > Fotografía </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ sección >
+        <! - Acerca de ->
+        < section  class = " page-section " id = " about " >
+            < div  class = " container " >
+                < div  class = " text-center " >
+                    < h2  class = " section-header text-uppercase " > Acerca de </ h2 >
+                    < h3  class = " section-subheading text-muted " > Lorem ipsum dolor sit amet consectetur. </ h3 >
+                </ div >
+                < ul  class = " timeline " >
+                    < li >
+                        < div  class = " timeline-image " > < img  class = " círculo redondeado img-fluid " src = " assets / img / about / 1.jpg " alt = "" /> </ div >
+                        < div  class = " timeline-panel " >
+                            < div  class = " timeline-header " >
+                                < h4 > 2009-2011 </ h4 >
+                                < h4  class = " subheading " > Nuestros humildes comienzos </ h4 >
+                            </ div >
+                            < div  class = " timeline-body " > < p  class = " text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur! </ p > </ div >
+                        </ div >
+                    </ li >
+                    < li  class = " timeline-inverted " >
+                        < div  class = " timeline-image " > < img  class = " círculo redondeado img-fluid " src = " assets / img / about / 2.jpg " alt = "" /> </ div >
+                        < div  class = " timeline-panel " >
+                            < div  class = " timeline-header " >
+                                < h4 > marzo de 2011 </ h4 >
+                                < h4  class = " subheading " > Nace una agencia </ h4 >
+                            </ div >
+                            < div  class = " timeline-body " > < p  class = " text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur! </ p > </ div >
+                        </ div >
+                    </ li >
+                    < li >
+                        < div  class = " timeline-image " > < img  class = " círculo redondeado img-fluid " src = " assets / img / about / 3.jpg " alt = "" /> </ div >
+                        < div  class = " timeline-panel " >
+                            < div  class = " timeline-header " >
+                                < h4 > diciembre de 2012 </ h4 >
+                                < h4  class = " subheading " > Transición al servicio completo </ h4 >
+                            </ div >
+                            < div  class = " timeline-body " > < p  class = " text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur! </ p > </ div >
+                        </ div >
+                    </ li >
+                    < li  class = " timeline-inverted " >
+                        < div  class = " timeline-image " > < img  class = " círculo redondeado img-fluid " src = " assets / img / about / 4.jpg " alt = "" /> </ div >
+                        < div  class = " timeline-panel " >
+                            < div  class = " timeline-header " >
+                                < h4 > julio de 2014 </ h4 >
+                                < h4  class = " subheading " > Expansión de la fase dos </ h4 >
+                            </ div >
+                            < div  class = " timeline-body " > < p  class = " text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur! </ p > </ div >
+                        </ div >
+                    </ li >
+                    < li  class = " timeline-inverted " >
+                        < div  class = " timeline-image " >
+                            < h4 > ¡ Sé parte <br /> de nuestra <br /> historia! </ h4 >
+                        </ div >
+                    </ li >
+                </ ul >
+            </ div >
+        </ sección >
+        <! - Equipo ->
+        < section  class = " page-section bg-light " id = " team " >
+            < div  class = " container " >
+                < div  class = " text-center " >
+                    < h2  class = " section-header text-uppercase " > Nuestro increíble equipo </ h2 >
+                    < h3  class = " section-subheading text-muted " > Lorem ipsum dolor sit amet consectetur. </ h3 >
+                </ div >
+                < div  class = " row " >
+                    < div  class = " col-lg-4 " >
+                        < div  class = " team-member " >
+                            < img  class = " mx-auto rounded-circle " src = " assets / img / team / 1.jpg " alt = "" />
+                            < h4 > Kay Garland </ h4 >
+                            < p  class = " text-muted " > Diseñador principal </ p >
+                            < Una  clase =" btn btn-oscuro BTN-sociales MX-2 " href =" #! " > < I  clase =" Fab fa-twitter " > </ i > </ a > < una  clase =" Bot btn- dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-facebook-f " > </ i > </ a > <una  clase = "btn btn-dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-linkedin-in " > </ i > </ a >
+                        </ div >
+                    </ div >
+                    < div  class = " col-lg-4 " >
+                        < div  class = " team-member " >
+                            < img  class = " mx-auto rounded-circle " src = " assets / img / team / 2.jpg " alt = "" />
+                            < h4 > Larry Parker </ h4 >
+                            < p  class = " text-muted " > Lead Marketer </ p >
+                            < Una  clase =" btn btn-oscuro BTN-sociales MX-2 " href =" #! " > < I  clase =" Fab fa-twitter " > </ i > </ a > < una  clase =" Bot btn- dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-facebook-f " > </ i > </ a > <una  clase = "btn btn-dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-linkedin-in " > </ i > </ a >
+                        </ div >
+                    </ div >
+                    < div  class = " col-lg-4 " >
+                        < div  class = " team-member " >
+                            < img  class = " mx-auto rounded-circle " src = " assets / img / team / 3.jpg " alt = "" />
+                            < h4 > Diana Petersen </ h4 >
+                            < p  class = " text-muted " > Desarrollador principal </ p >
+                            < Una  clase =" btn btn-oscuro BTN-sociales MX-2 " href =" #! " > < I  clase =" Fab fa-twitter " > </ i > </ a > < una  clase =" Bot btn- dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-facebook-f " > </ i > </ a > <una  clase = "btn btn-dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-linkedin-in " > </ i > </ a >
+                        </ div >
+                    </ div >
+                </ div >
+                < div  class = " row " >
+                    < div  class = " col-lg-8 mx-auto text-center " > < p  class = " large text-muted " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. </ p > </ div >
+                </ div >
+            </ div >
+        </ sección >
+        <! - Clientes ->
+        < section  class = " py-5 " >
+            < div  class = " container " >
+                < div  class = " row " >
+                    < div  class = " col-md-3 col-sm-6 my-3 " >
+                        < Un  href = " #! " > < Img  clase =" img-líquido de bloque d mx-auto " src =" activos / img / logotipos / envato.jpg " alt ="" /> </ a >
+                    </ div >
+                    < div  class = " col-md-3 col-sm-6 my-3 " >
+                        < Un  href = " #! " > < Img  clase =" img-líquido de bloque d mx-auto " src =" activos / img / logotipos / designmodo.jpg " alt ="" /> </ a >
+                    </ div >
+                    < div  class = " col-md-3 col-sm-6 my-3 " >
+                        < Un  href = " #! " > < Img  clase =" img-líquido de bloque d mx-auto " src =" activos / img / logotipos / themeforest.jpg " alt ="" /> </ a >
+                    </ div >
+                    < div  class = " col-md-3 col-sm-6 my-3 " >
+                        < Un  href = " #! " > < Img  clase =" img-líquido de bloque d mx-auto " src =" activos / img / logotipos / creativo-market.jpg " alt ="" /> </ a >
+                    </ div >
+                </ div >
+            </ div >
+        </ sección >
+        <! - Contacto ->
+        < section  class = " page-section " id = " contact " >
+            < div  class = " container " >
+                < div  class = " text-center " >
+                    < h2  class = " section-header text-uppercase " > Contáctenos </ h2 >
+                    < h3  class = " section-subheading text-muted " > Lorem ipsum dolor sit amet consectetur. </ h3 >
+                </ div >
+                < form  id = " contactForm " name = " sentMessage " novalidate = " novalidate " >
+                    < div  class = " row align-items-stretch mb-5 " >
+                        < div  class = " col-md-6 " >
+                            < div  class = " form-group " >
+                                < input  class = " form-control " id = " name " type = " text " placeholder = " Your Name * " required = " required " data-validation-required-message = " Por favor ingrese su nombre " / /
+                                < p  class = " help-block text-danger " > </ p >
+                            </ div >
+                            < div  class = " form-group " >
+                                < input  class = " form-control " id = " email " type = " email " placeholder = " Su correo electrónico * " required = " required " data-validation-required-message = " Ingrese su dirección de correo electrónico " . />
+                                < p  class = " help-block text-danger " > </ p >
+                            </ div >
+                            < div  class = " form-group mb-md-0 " >
+                                < input  class = " form-control " id = " phone " type = " tel " placeholder = " Su teléfono * " required = " required " data-validation-required-message = " Ingrese su número de teléfono " / /
+                                < p  class = " help-block text-danger " > </ p >
+                            </ div >
+                        </ div >
+                        < div  class = " col-md-6 " >
+                            < div  class = " form-group form-group-textarea mb-md-0 " >
+                                < textarea  class = " form-control " id = " message " placeholder = " Su mensaje * " required = " required " data-validation-required-message = " Ingrese un mensaje. " > </ textarea >
+                                < p  class = " help-block text-danger " > </ p >
+                            </ div >
+                        </ div >
+                    </ div >
+                    < div  class = " text-center " >
+                        < div  id = " success " > </ div >
+                        < Botón de  clase = " btn btn-primaria BTN-xl texto en mayúsculas " ID =" sendMessageButton " tipo =" enviar " > Enviar mensaje </ botón >
+                    </ div >
+                </ form >
+            </ div >
+        </ sección >
+        <! - Pie de página ->
+        < footer  class = " footer py-4 " >
+            < div  class = " container " >
+                < div  class = " row align-items-center " >
+                    < div  class = " col-lg-4 text-lg-left " > Copyright © su sitio web 2020 </ div >
+                    < div  class = " col-lg-4 my-3 my-lg-0 " >
+                        < Una  clase =" btn btn-oscuro BTN-sociales MX-2 " href =" #! " > < I  clase =" Fab fa-twitter " > </ i > </ a > < una  clase =" Bot btn- dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-facebook-f " > </ i > </ a > <una  clase = "btn btn-dark btn-social mx-2 " href =" #! " > < i  class =" fab fa-linkedin-in " > </ i > </ a >
+                    </ div >
+                    < Div  clase = " col-lg-4 de texto-lg-derecha " > < una  clase =" mr-3 " href =" #! " > Política de privacidad </ a > < un  href =" #! " > Términos de Use </ a > </ div >
+                </ div >
+            </ div >
+        </ pie de página >
+        <! - Modalidades de cartera -> <! - Modal 1 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal1 " tabindex = " -1 " role = " dialog " aria-hidden = " true " >
+            < div  class = " modal-dialog " >
+                < div  class = " modal-content " >
+                    < div  class = " close-modal " data-despeds = " modal " > < img  src = " assets / img / close-icon.svg " /> </ div >
+                    < div  class = " container " >
+                        < div  class = " row justify-content-center " >
+                            < div  class = " col-lg-8 " >
+                                < div  class = " modal-body " >
+                                    <! - Detalles del proyecto Ir aquí ->
+                                    < h2  class = " text-uppercase " > Nombre del proyecto </ h2 >
+                                    < p  class = " item-intro text-muted " > Lorem ipsum dolor sit amet consectetur. </ p >
+                                    < img  class = " img-fluid d-block mx-auto " src = " assets / img / portfolio / 01-full.jpg " alt = "" />
+                                    < p > Use esta área para describir su proyecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt menos dignissimos deserunt repellat aperiam cuasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! </ p >
+                                    < ul  class = " list-inline " >
+                                        < li > Fecha: enero de 2020 </ li >
+                                        < li > Cliente: Hilos </ li >
+                                        < li > Categoría: Ilustración </ li >
+                                    </ ul >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " type = " button " > < i  class = " fas fa-times mr-1 " > </ i > Cerrar proyecto </ button >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal 2 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal2 " tabindex = " -1 " role = " dialog " aria-hidden = " true " >
+            < div  class = " modal-dialog " >
+                < div  class = " modal-content " >
+                    < div  class = " close-modal " data-despeds = " modal " > < img  src = " assets / img / close-icon.svg " /> </ div >
+                    < div  class = " container " >
+                        < div  class = " row justify-content-center " >
+                            < div  class = " col-lg-8 " >
+                                < div  class = " modal-body " >
+                                    <! - Detalles del proyecto Ir aquí ->
+                                    < h2  class = " text-uppercase " > Nombre del proyecto </ h2 >
+                                    < p  class = " item-intro text-muted " > Lorem ipsum dolor sit amet consectetur. </ p >
+                                    < img  class = " img-fluid d-block mx-auto " src = " assets / img / portfolio / 02-full.jpg " alt = "" />
+                                    < p > Use esta área para describir su proyecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt menos dignissimos deserunt repellat aperiam cuasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! </ p >
+                                    < ul  class = " list-inline " >
+                                        < li > Fecha: enero de 2020 </ li >
+                                        < li > Cliente: Explore </ li >
+                                        < li > Categoría: Diseño gráfico </ li >
+                                    </ ul >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " type = " button " > < i  class = " fas fa-times mr-1 " > </ i > Cerrar proyecto </ button >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal 3 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal3 " tabindex = " -1 " role = " dialog " aria-hidden = " true " >
+            < div  class = " modal-dialog " >
+                < div  class = " modal-content " >
+                    < div  class = " close-modal " data-despeds = " modal " > < img  src = " assets / img / close-icon.svg " /> </ div >
+                    < div  class = " container " >
+                        < div  class = " row justify-content-center " >
+                            < div  class = " col-lg-8 " >
+                                < div  class = " modal-body " >
+                                    <! - Detalles del proyecto Ir aquí ->
+                                    < h2  class = " text-uppercase " > Nombre del proyecto </ h2 >
+                                    < p  class = " item-intro text-muted " > Lorem ipsum dolor sit amet consectetur. </ p >
+                                    < img  class = " img-fluid d-block mx-auto " src = " assets / img / portfolio / 03-full.jpg " alt = "" />
+                                    < p > Use esta área para describir su proyecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt menos dignissimos deserunt repellat aperiam cuasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! </ p >
+                                    < ul  class = " list-inline " >
+                                        < li > Fecha: enero de 2020 </ li >
+                                        < li > Cliente: Finalizar </ li >
+                                        < li > Categoría: Identidad </ li >
+                                    </ ul >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " type = " button " > < i  class = " fas fa-times mr-1 " > </ i > Cerrar proyecto </ button >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal 4 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal4 " tabindex = " -1 " role = " dialog " aria-hidden = " true " >
+            < div  class = " modal-dialog " >
+                < div  class = " modal-content " >
+                    < div  class = " close-modal " data-despeds = " modal " > < img  src = " assets / img / close-icon.svg " /> </ div >
+                    < div  class = " container " >
+                        < div  class = " row justify-content-center " >
+                            < div  class = " col-lg-8 " >
+                                < div  class = " modal-body " >
+                                    <! - Detalles del proyecto Ir aquí ->
+                                    < h2  class = " text-uppercase " > Nombre del proyecto </ h2 >
+                                    < p  class = " item-intro text-muted " > Lorem ipsum dolor sit amet consectetur. </ p >
+                                    < img  class = " img-fluid d-block mx-auto " src = " assets / img / portfolio / 04-full.jpg " alt = "" />
+                                    < p > Use esta área para describir su proyecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt menos dignissimos deserunt repellat aperiam cuasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! </ p >
+                                    < ul  class = " list-inline " >
+                                        < li > Fecha: enero de 2020 </ li >
+                                        < li > Cliente: Líneas </ li >
+                                        < li > Categoría: Marca </ li >
+                                    </ ul >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " type = " button " > < i  class = " fas fa-times mr-1 " > </ i > Cerrar proyecto </ button >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal 5 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal5 " tabindex = " -1 " role = " dialog " aria-hidden = " true " >
+            < div  class = " modal-dialog " >
+                < div  class = " modal-content " >
+                    < div  class = " close-modal " data-despeds = " modal " > < img  src = " assets / img / close-icon.svg " /> </ div >
+                    < div  class = " container " >
+                        < div  class = " row justify-content-center " >
+                            < div  class = " col-lg-8 " >
+                                < div  class = " modal-body " >
+                                    <! - Detalles del proyecto Ir aquí ->
+                                    < h2  class = " text-uppercase " > Nombre del proyecto </ h2 >
+                                    < p  class = " item-intro text-muted " > Lorem ipsum dolor sit amet consectetur. </ p >
+                                    < img  class = " img-fluid d-block mx-auto " src = " assets / img / portfolio / 05-full.jpg " alt = "" />
+                                    < p > Use esta área para describir su proyecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt menos dignissimos deserunt repellat aperiam cuasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! </ p >
+                                    < ul  class = " list-inline " >
+                                        < li > Fecha: enero de 2020 </ li >
+                                        < li > Cliente: suroeste </ li >
+                                        < li > Categoría: Diseño de sitios web </ li >
+                                    </ ul >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " type = " button " > < i  class = " fas fa-times mr-1 " > </ i > Cerrar proyecto </ button >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Modal 6 ->
+        < div  class = " portfolio-modal modal fade " id = " portfolioModal6 " tabindex = " -1 " role = " dialog " aria-hidden = " true " >
+            < div  class = " modal-dialog " >
+                < div  class = " modal-content " >
+                    < div  class = " close-modal " data-despeds = " modal " > < img  src = " assets / img / close-icon.svg " /> </ div >
+                    < div  class = " container " >
+                        < div  class = " row justify-content-center " >
+                            < div  class = " col-lg-8 " >
+                                < div  class = " modal-body " >
+                                    <! - Detalles del proyecto Ir aquí ->
+                                    < h2  class = " text-uppercase " > Nombre del proyecto </ h2 >
+                                    < p  class = " item-intro text-muted " > Lorem ipsum dolor sit amet consectetur. </ p >
+                                    < img  class = " img-fluid d-block mx-auto " src = " assets / img / portfolio / 06-full.jpg " alt = "" />
+                                    < p > Use esta área para describir su proyecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt menos dignissimos deserunt repellat aperiam cuasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! </ p >
+                                    < ul  class = " list-inline " >
+                                        < li > Fecha: enero de 2020 </ li >
+                                        < li > Cliente: Ventana </ li >
+                                        < li > Categoría: Fotografía </ li >
+                                    </ ul >
+                                    < button  class = " btn btn-primary " data-dispats = " modal " type = " button " > < i  class = " fas fa-times mr-1 " > </ i > Cerrar proyecto </ button >
+                                </ div >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+        <! - Bootstrap core JS ->
+        < script  src = " https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js " > </ script >
+        < script  src = " https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js " > </ script >
+        <! - Complemento de terceros JS ->
+        < script  src = " https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js " > </ script >
+        <! - Formulario de contacto JS ->
+        < script  src = " assets / mail / jqBootstrapValidation.js " > </ script >
+        < script  src = " assets / mail / contact_me.js " > </ script >
+        <! - Tema principal JS ->
+        < script  src = " js / scripts.js " > </ script >
